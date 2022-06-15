@@ -1,0 +1,2682 @@
+Processes:
+
+   name     CPU time  when done  cpu disp  i/o disp  i/o time
+TICK = 1 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process editor on ready queue; load it into CPU
+VIEW: Moving process editor to CPU
+VIEW: process editor, run time 5, run time remaining 5; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.870000
+VIEW: 		random number (raw, type, value used:   383100999 f 0.17840
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:   858300821 i       2
+VIEW: Process editor moved to CPU
+VIEW: process editor on CPU with remaining runtime 5 (out of 5)
+Process will not block for I/O
+VIEW: process editor on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 2 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process editor on CPU with remaining runtime 4 (out of 5)
+VIEW: 		Process blocks for I/O; transfer process editor to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: I/O device idle and process editor on I/O queue but at same tick as on CPUl ignore
+VIEW: 		I/O device idle time is 2, busy time is 0
+TICK = 3 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process compiler on ready queue; load it into CPU
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 40; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:   357768173 f 0.16660
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:   455528251 i       2
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU with remaining runtime 40 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process editor to I/O device
+VIEW: remaining run time 3 > 30; random number   133005921 i      22
+VIEW: 		so process blocks for 22 time units
+VIEW: Process editor moved to CPU
+VIEW: I/O device idle and process editor on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 2, busy time is 1
+VIEW: I/O device idle and process editor on I/O queue; load it into I/O device
+VIEW: process editor has 21 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 4 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 39 (out of 40)
+VIEW: 		Process blocks for I/O; transfer process compiler to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 20 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 5 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process adventure on ready queue; load it into CPU
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 30; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:   116285904 f 0.05415
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:   591987137 i       3
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU with remaining runtime 30 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 19 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 6 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 29 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 18 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 7 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 28 (out of 30)
+VIEW: 		Process blocks for I/O; transfer process adventure to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 17 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 8 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 16 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 9 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 15 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 10 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 14 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 11 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 13 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 12 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 12 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 13 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 11 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 14 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 10 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 15 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 9 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 16 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 8 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 17 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 7 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 18 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 6 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 19 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 5 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 20 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 4 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 21 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 3 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 22 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 2 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 23 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 1 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 24 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 0 time units on I/O device
+VIEW: 		process editor being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 25 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process editor on ready queue; load it into CPU
+VIEW: Moving process editor to CPU
+VIEW: process editor, run time 5, run time remaining 3; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.870000
+VIEW: 		random number (raw, type, value used:   102557902 f 0.04776
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:   689413528 i       2
+VIEW: Process editor moved to CPU
+VIEW: process editor on CPU with remaining runtime 3 (out of 5)
+Process will not block for I/O
+VIEW: process editor on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process compiler to I/O device
+VIEW: remaining run time 38 > 30; random number   585691128 i      19
+VIEW: 		so process blocks for 19 time units
+VIEW: Process compiler moved to CPU
+VIEW: I/O device idle and process compiler on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 2, busy time is 23
+VIEW: I/O device idle and process compiler on I/O queue; load it into I/O device
+VIEW: process compiler has 18 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 26 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process editor on CPU with remaining runtime 2 (out of 5)
+VIEW: 		Process blocks for I/O; transfer process editor to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 17 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 27 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 16 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 28 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 15 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 29 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 14 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 30 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 13 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 31 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 12 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 32 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 11 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 33 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 10 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 34 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 9 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 35 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 8 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 36 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 7 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 37 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 6 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 38 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 5 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 39 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 4 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 40 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 3 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 41 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 2 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 42 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 1 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 43 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 0 time units on I/O device
+VIEW: 		process compiler being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 44 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process compiler on ready queue; load it into CPU
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 38; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:   789708827 f 0.36774
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:   477528897 i       3
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU with remaining runtime 38 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process adventure to I/O device
+VIEW: remaining run time 27 > 30; random number   471709721 i      12
+VIEW: 		so process blocks for 12 time units
+VIEW: Process adventure moved to CPU
+VIEW: I/O device idle and process adventure on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 2, busy time is 42
+VIEW: I/O device idle and process adventure on I/O queue; load it into I/O device
+VIEW: process adventure has 11 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 45 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 37 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 10 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 46 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 36 (out of 40)
+VIEW: 		Process blocks for I/O; transfer process compiler to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 9 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 47 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 8 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 48 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 7 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 49 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 6 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 50 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 5 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 51 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 4 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 52 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 3 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 53 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 2 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 54 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 1 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 55 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 0 time units on I/O device
+VIEW: 		process adventure being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 56 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process adventure on ready queue; load it into CPU
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 27; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:   433228053 f 0.20174
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:    94737806 i       2
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU with remaining runtime 27 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process editor to I/O device
+VIEW: remaining run time 1 > 30; random number   738562773 i       4
+VIEW: 		so process blocks for 4 time units
+VIEW: Process editor moved to CPU
+VIEW: I/O device idle and process editor on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 2, busy time is 54
+VIEW: I/O device idle and process editor on I/O queue; load it into I/O device
+VIEW: process editor has 3 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 57 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 26 (out of 30)
+VIEW: 		Process blocks for I/O; transfer process adventure to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 2 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 58 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 1 time units on I/O device
+VIEW: process editor on I/O; leaving function for I/O  queue
+TICK = 59 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process editor has 0 time units on I/O device
+VIEW: 		process editor being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 60 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process editor on ready queue; load it into CPU
+VIEW: Moving process editor to CPU
+VIEW: process editor, run time 5, run time remaining 1; will not block for I/O
+VIEW: Process editor moved to CPU
+VIEW: process editor on CPU with remaining runtime 1 (out of 5)
+Process will not block for I/O
+VIEW: Moving process editor to CPU
+VIEW: process editor, run time 5, run time remaining 0; will not block for I/O
+VIEW: Process editor moved to CPU
+VIEW: process editor on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process compiler to I/O device
+VIEW: remaining run time 35 > 30; random number  1390825938 i      19
+VIEW: 		so process blocks for 19 time units
+VIEW: Process compiler moved to CPU
+VIEW: I/O device idle and process compiler on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 2, busy time is 58
+VIEW: I/O device idle and process compiler on I/O queue; load it into I/O device
+VIEW: process compiler has 18 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 61 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process editor on CPU with remaining runtime 0 (out of 5)
+VIEW: process editor on CPU ended
+editor          5         61         4         2        26
+VIEW: 		information printed; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 17 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 62 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 16 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 63 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 15 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 64 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 14 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 65 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 13 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 66 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 12 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 67 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 11 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 68 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 10 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 69 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 9 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 70 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 8 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 71 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 7 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 72 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 6 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 73 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 5 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 74 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 4 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 75 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 3 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 76 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 2 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 77 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 1 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 78 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 0 time units on I/O device
+VIEW: 		process compiler being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 79 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process compiler on ready queue; load it into CPU
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 35; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:   320971712 f 0.14946
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:    63710857 i       3
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU with remaining runtime 35 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process adventure to I/O device
+VIEW: remaining run time 25 > 30; random number  1886550712 i      23
+VIEW: 		so process blocks for 23 time units
+VIEW: Process adventure moved to CPU
+VIEW: I/O device idle and process adventure on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 2, busy time is 77
+VIEW: I/O device idle and process adventure on I/O queue; load it into I/O device
+VIEW: process adventure has 22 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 80 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 34 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 21 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 81 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 33 (out of 40)
+VIEW: 		Process blocks for I/O; transfer process compiler to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 20 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 82 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 19 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 83 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 18 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 84 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 17 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 85 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 16 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 86 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 15 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 87 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 14 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 88 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 13 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 89 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 12 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 90 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 11 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 91 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 10 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 92 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 9 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 93 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 8 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 94 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 7 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 95 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 6 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 96 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 5 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 97 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 4 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 98 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 3 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 99 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 2 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 100 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 1 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 101 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 0 time units on I/O device
+VIEW: 		process adventure being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 102 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process adventure on ready queue; load it into CPU
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 25; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:  1407500761 f 0.65542
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:  1133106595 i       1
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU with remaining runtime 25 (out of 30)
+VIEW: 		Process blocks for I/O; transfer process adventure to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process compiler to I/O device
+VIEW: remaining run time 32 > 30; random number  1086319404 i      25
+VIEW: 		so process blocks for 25 time units
+VIEW: Process compiler moved to CPU
+VIEW: I/O device idle and process compiler on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 2, busy time is 100
+VIEW: I/O device idle and process compiler on I/O queue; load it into I/O device
+VIEW: process compiler has 24 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 103 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 23 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 104 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 22 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 105 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 21 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 106 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 20 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 107 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 19 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 108 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 18 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 109 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 17 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 110 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 16 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 111 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 15 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 112 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 14 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 113 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 13 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 114 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 12 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 115 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 11 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 116 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 10 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 117 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 9 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 118 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 8 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 119 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 7 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 120 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 6 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 121 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 5 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 122 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 4 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 123 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 3 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 124 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 2 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 125 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 1 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 126 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 0 time units on I/O device
+VIEW: 		process compiler being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 127 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process compiler on ready queue; load it into CPU
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 32; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:  1966433342 f 0.91569
+VIEW: Process will not block for I/O
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU with remaining runtime 32 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process adventure to I/O device
+VIEW: remaining run time 24 > 30; random number   403909323 i       4
+VIEW: 		so process blocks for 4 time units
+VIEW: Process adventure moved to CPU
+VIEW: I/O device idle and process adventure on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 2, busy time is 125
+VIEW: I/O device idle and process adventure on I/O queue; load it into I/O device
+VIEW: process adventure has 3 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 128 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 31 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 2 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 129 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 30 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 1 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 130 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 29 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 0 time units on I/O device
+VIEW: 		process adventure being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 131 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 28 (out of 40)
+Process will not block for I/O
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 24; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:   255885579 f 0.11916
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:   124761827 i       3
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 132 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 24 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 133 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 23 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 134 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 22 (out of 30)
+VIEW: 		Process blocks for I/O; transfer process adventure to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: I/O device idle and process adventure on I/O queue but at same tick as on CPUl ignore
+VIEW: 		I/O device idle time is 6, busy time is 128
+TICK = 135 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process compiler on ready queue; load it into CPU
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 27; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:  1546035286 f 0.71993
+VIEW: Process will not block for I/O
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU with remaining runtime 27 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process adventure to I/O device
+VIEW: remaining run time 21 > 30; random number  1369096065 i      16
+VIEW: 		so process blocks for 16 time units
+VIEW: Process adventure moved to CPU
+VIEW: I/O device idle and process adventure on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 6, busy time is 129
+VIEW: I/O device idle and process adventure on I/O queue; load it into I/O device
+VIEW: process adventure has 15 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 136 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 26 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 14 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 137 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 25 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 13 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 138 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 24 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 12 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 139 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 23 (out of 40)
+Process will not block for I/O
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 22; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:  1891602243 f 0.88085
+VIEW: Process will not block for I/O
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 11 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 140 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 22 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 10 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 141 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 21 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 9 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 142 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 20 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 8 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 143 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 19 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 7 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 144 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 18 (out of 40)
+Process will not block for I/O
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 17; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:   884891277 f 0.41206
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:  1752197064 i       5
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 6 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 145 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 17 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 5 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 146 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 16 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 4 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 147 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 15 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 3 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 148 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 14 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 2 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 149 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 13 (out of 40)
+VIEW: 		Process blocks for I/O; transfer process compiler to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 1 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 150 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 0 time units on I/O device
+VIEW: 		process adventure being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 151 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process adventure on ready queue; load it into CPU
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 21; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:   602419417 f 0.28052
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:  1242659451 i       2
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU with remaining runtime 21 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process compiler to I/O device
+VIEW: remaining run time 12 > 30; random number    60241667 i      18
+VIEW: 		so process blocks for 18 time units
+VIEW: Process compiler moved to CPU
+VIEW: I/O device idle and process compiler on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 6, busy time is 145
+VIEW: I/O device idle and process compiler on I/O queue; load it into I/O device
+VIEW: process compiler has 17 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 152 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 20 (out of 30)
+VIEW: 		Process blocks for I/O; transfer process adventure to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 16 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 153 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 15 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 154 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 14 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 155 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 13 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 156 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 12 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 157 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 11 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 158 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 10 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 159 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 9 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 160 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 8 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 161 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 7 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 162 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 6 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 163 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 5 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 164 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 4 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 165 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 3 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 166 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 2 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 167 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 1 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 168 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 0 time units on I/O device
+VIEW: 		process compiler being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 169 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process compiler on ready queue; load it into CPU
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 12; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:   735425338 f 0.34246
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:  1358945355 i       1
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU with remaining runtime 12 (out of 40)
+VIEW: 		Process blocks for I/O; transfer process compiler to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process adventure to I/O device
+VIEW: remaining run time 19 > 30; random number   652228804 i       5
+VIEW: 		so process blocks for 5 time units
+VIEW: Process adventure moved to CPU
+VIEW: I/O device idle and process adventure on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 6, busy time is 163
+VIEW: I/O device idle and process adventure on I/O queue; load it into I/O device
+VIEW: process adventure has 4 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 170 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 3 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 171 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 2 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 172 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 1 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 173 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 0 time units on I/O device
+VIEW: 		process adventure being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 174 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process adventure on ready queue; load it into CPU
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 19; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:   837983241 f 0.39022
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:  2048358883 i       4
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU with remaining runtime 19 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process compiler to I/O device
+VIEW: remaining run time 11 > 30; random number  1237919932 i      23
+VIEW: 		so process blocks for 23 time units
+VIEW: Process compiler moved to CPU
+VIEW: I/O device idle and process compiler on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 6, busy time is 168
+VIEW: I/O device idle and process compiler on I/O queue; load it into I/O device
+VIEW: process compiler has 22 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 175 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 18 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 21 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 176 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 17 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 20 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 177 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 16 (out of 30)
+VIEW: 		Process blocks for I/O; transfer process adventure to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 19 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 178 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 18 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 179 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 17 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 180 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 16 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 181 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 15 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 182 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 14 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 183 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 13 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 184 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 12 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 185 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 11 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 186 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 10 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 187 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 9 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 188 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 8 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 189 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 7 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 190 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 6 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 191 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 5 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 192 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 4 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 193 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 3 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 194 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 2 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 195 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 1 time units on I/O device
+VIEW: process compiler on I/O; leaving function for I/O  queue
+TICK = 196 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process compiler has 0 time units on I/O device
+VIEW: 		process compiler being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 197 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process compiler on ready queue; load it into CPU
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 11; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:  1627692068 f 0.75795
+VIEW: Process will not block for I/O
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU with remaining runtime 11 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process adventure to I/O device
+VIEW: remaining run time 15 > 30; random number   378404132 i       3
+VIEW: 		so process blocks for 3 time units
+VIEW: Process adventure moved to CPU
+VIEW: I/O device idle and process adventure on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 6, busy time is 191
+VIEW: I/O device idle and process adventure on I/O queue; load it into I/O device
+VIEW: process adventure has 2 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 198 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 10 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 1 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 199 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 9 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 0 time units on I/O device
+VIEW: 		process adventure being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 200 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 8 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 201 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 7 (out of 40)
+Process will not block for I/O
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 15; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:  1709629653 f 0.79611
+VIEW: Process will not block for I/O
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 202 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 15 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 203 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 14 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 204 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 13 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 205 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 12 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 206 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 11 (out of 30)
+Process will not block for I/O
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 6; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.530000
+VIEW: 		random number (raw, type, value used:  2060920121 f 0.95969
+VIEW: Process will not block for I/O
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 207 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 6 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 208 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 5 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 209 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 4 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 210 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 3 (out of 40)
+Process will not block for I/O
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 211 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 2 (out of 40)
+Process will not block for I/O
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 10; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:   473141938 f 0.22032
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:   300708778 i       4
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 212 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 10 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 213 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 9 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 214 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 8 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 215 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 7 (out of 30)
+VIEW: 		Process blocks for I/O; transfer process adventure to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: I/O device idle and process adventure on I/O queue but at same tick as on CPUl ignore
+VIEW: 		I/O device idle time is 22, busy time is 193
+TICK = 216 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process compiler on ready queue; load it into CPU
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 1; will not block for I/O
+VIEW: Process will not block for I/O
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU with remaining runtime 1 (out of 40)
+Process will not block for I/O
+VIEW: Moving process compiler to CPU
+VIEW: process compiler, run time 40, run time remaining 0; will not block for I/O
+VIEW: Process will not block for I/O
+VIEW: Process compiler moved to CPU
+VIEW: process compiler on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process adventure to I/O device
+VIEW: remaining run time 6 > 30; random number  1304262411 i      22
+VIEW: 		so process blocks for 22 time units
+VIEW: Process adventure moved to CPU
+VIEW: I/O device idle and process adventure on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 22, busy time is 194
+VIEW: I/O device idle and process adventure on I/O queue; load it into I/O device
+VIEW: process adventure has 21 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 217 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process compiler on CPU with remaining runtime 0 (out of 40)
+VIEW: process compiler on CPU ended
+compiler       40        217        12         5       104
+VIEW: 		information printed; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 20 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 218 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 19 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 219 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 18 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 220 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 17 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 221 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 16 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 222 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 15 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 223 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 14 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 224 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 13 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 225 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 12 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 226 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 11 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 227 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 10 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 228 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 9 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 229 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 8 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 230 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 7 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 231 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 6 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 232 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 5 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 233 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 4 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 234 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 3 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 235 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 2 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 236 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 1 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 237 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 0 time units on I/O device
+VIEW: 		process adventure being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 238 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process adventure on ready queue; load it into CPU
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 6; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:   794113650 f 0.36979
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:   364419635 i       1
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU with remaining runtime 6 (out of 30)
+VIEW: 		Process blocks for I/O; transfer process adventure to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: I/O device idle and process adventure on I/O queue but at same tick as on CPUl ignore
+VIEW: 		I/O device idle time is 23, busy time is 215
+TICK = 239 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process adventure to I/O device
+VIEW: remaining run time 5 > 30; random number  1043329475 i       6
+VIEW: 		so process blocks for 6 time units
+VIEW: Process adventure moved to CPU
+VIEW: I/O device idle and process adventure on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 23, busy time is 216
+VIEW: I/O device idle and process adventure on I/O queue; load it into I/O device
+VIEW: process adventure has 5 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 240 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 4 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 241 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 3 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 242 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 2 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 243 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 1 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 244 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 0 time units on I/O device
+VIEW: 		process adventure being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 245 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process adventure on ready queue; load it into CPU
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 5; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:    54130763 f 0.02521
+VIEW: Process will block for I/O
+VIEW: 		random number (raw, type, value used:  1497526230 i       1
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU with remaining runtime 5 (out of 30)
+VIEW: 		Process blocks for I/O; transfer process adventure to I/O queue and leave function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: I/O device idle and process adventure on I/O queue but at same tick as on CPUl ignore
+VIEW: 		I/O device idle time is 24, busy time is 221
+TICK = 246 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: Moving process adventure to I/O device
+VIEW: remaining run time 4 > 30; random number  2129648879 i      30
+VIEW: 		so process blocks for 30 time units
+VIEW: Process adventure moved to CPU
+VIEW: I/O device idle and process adventure on I/O queue so loaded onto I/O devicenVIEW: 		I/O device idle time is 24, busy time is 222
+VIEW: I/O device idle and process adventure on I/O queue; load it into I/O device
+VIEW: process adventure has 29 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 247 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 28 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 248 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 27 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 249 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 26 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 250 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 25 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 251 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 24 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 252 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 23 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 253 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 22 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 254 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 21 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 255 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 20 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 256 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 19 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 257 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 18 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 258 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 17 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 259 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 16 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 260 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 15 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 261 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 14 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 262 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 13 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 263 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 12 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 264 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 11 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 265 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 10 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 266 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 9 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 267 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 8 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 268 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 7 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 269 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 6 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 270 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 5 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 271 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 4 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 272 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 3 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 273 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 2 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 274 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 1 time units on I/O device
+VIEW: process adventure on I/O; leaving function for I/O  queue
+TICK = 275 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: both CPU and ready queue empty; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: process adventure has 0 time units on I/O device
+VIEW: 		process adventure being moved to I/O queue
+VIEW: 		I/O device now empty; leaving function on I/O device
+TICK = 276 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: CPU idle and process adventure on ready queue; load it into CPU
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 4; may block for I/O
+VIEW: generating floating-point random number; probability of blocking is 0.720000
+VIEW: 		random number (raw, type, value used:  2020564105 f 0.94090
+VIEW: Process will not block for I/O
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU with remaining runtime 4 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 277 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 3 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 278 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 2 (out of 30)
+Process will not block for I/O
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 279 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 1 (out of 30)
+Process will not block for I/O
+VIEW: Moving process adventure to CPU
+VIEW: process adventure, run time 30, run time remaining 0; will not block for I/O
+VIEW: Process will not block for I/O
+VIEW: Process adventure moved to CPU
+VIEW: process adventure on CPU; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+TICK = 280 --------------------------------------------
+RUN READY QUEUE --------------------------------------------
+VIEW: Entering function for ready queue
+VIEW: process adventure on CPU with remaining runtime 0 (out of 30)
+VIEW: process adventure on CPU ended
+adventure      30        280        12         9       121
+VIEW: 		information printed; leaving function for ready queue
+RUN I/O QUEUE --------------------------------------------
+VIEW: Entering function for I/O queue
+VIEW: both I/O device and I/O queue empty; leaving function for I/O queue
+
+System:
+The wall clock time at which the simulation finished: 280
+
+CPU:
+Total time spent busy: 75
+Total time spent idle: 205
+CPU utilization: 0.27
+Number of dispatches: 28
+Overall throughput: 0.01
+
+I/O device:
+Total time spent busy: 251
+Total time spent idle: 29
+I/O utilization: 0.90
+Number of dispatches: 16
+Overall throughput: 0.01
